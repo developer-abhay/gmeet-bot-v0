@@ -1,0 +1,23 @@
+{
+  "name": "fathom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^23.10.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
